@@ -226,7 +226,6 @@
                     position: "absolute",
                     top: "100%",
                     left: "0",
-                    zIndex: "100",
                     display: "none"
                 },
                 ltr: {
