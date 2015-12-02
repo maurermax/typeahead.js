@@ -170,7 +170,7 @@
       }
 
       else {
-        ttEach(this, function(t) { t.setVal(_.toStr(newVal, silent)); });
+        ttEach(this, function(t) { t.setVal(_.toStr(newVal), silent); });
         return this;
       }
     },
