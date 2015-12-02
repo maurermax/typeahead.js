@@ -1449,7 +1449,7 @@
                     return query;
                 } else {
                     ttEach(this, function(t) {
-                        t.setVal(_.toStr(newVal, silent));
+                        t.setVal(_.toStr(newVal), silent);
                     });
                     return this;
                 }
